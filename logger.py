@@ -6,8 +6,8 @@ import time
 # TODO:
 # move credentials to environment variables
 
-USERNAME = "la_rajoleta_"
-PASSWORD = "@LaRajoletaPassword123456789"
+USERNAME = os.getenv("USERNAME")
+PASSWORD = os.getenv("PASSWORD")
 
 driver = webdriver.Chrome()
 
